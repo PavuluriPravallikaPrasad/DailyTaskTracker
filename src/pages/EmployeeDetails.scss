@@ -1,0 +1,89 @@
+/* EmployeeDetails.scss */
+
+.employee-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+    h2 {
+        font-size: 32px;
+        color: #333;
+        text-align: center;
+    }
+
+    .employee-info {
+        margin-top: 20px;
+        font-size: 18px;
+
+        .employee-info-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px; /* Creates space between the columns */
+
+            p {
+                width: 48%;  // Each <p> element takes up 48% of the row width
+                margin: 0;
+                font-size: 16px;
+                text-align: left;  // Align text to the left for better readability
+            }
+        }
+    }
+
+    .active-status {
+        color: green;
+        font-weight: bold;
+    }
+
+    .inactive-status {
+        color: red;
+        font-weight: bold;
+    }
+
+    /* Task status color coding */
+    .completed-status {
+        background-color: #d4edda;  /* Light green */
+        color: green;
+        font-weight: bold;
+    }
+
+    .in-progress-status {
+        background-color: #fff3cd;  /* Light yellow */
+        color: #856404;
+        font-weight: bold;
+    }
+
+    /* Default for other statuses */
+    .other-status {
+        background-color: #f8d7da; /* Light red for unknown statuses */
+        color: red;
+    }
+}
+
+.back-button-container {
+    text-align: center;  // Center the button
+    margin-top: 20px;
+}
+
+.back-button {
+    padding: 12px 20px;
+    background-color: #007bff;  // Blue background
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #0056b3;  // Darker blue when hovered
+    }
+
+    &:focus {
+        outline: none;  // Remove the default outline
+    }
+}

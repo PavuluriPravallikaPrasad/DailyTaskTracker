@@ -1,0 +1,172 @@
+.container {
+  padding: 20px;
+}
+
+.hero-section {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  background-color: #f4f7fc;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+  font-size: 32px; 
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.hero-section p {
+  font-size: 18px; 
+  color: #555;
+  line-height: 1.8;
+}
+
+.manager-homepage {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #333;
+}
+
+.employee-tasks {
+  margin-top: 20px;
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.search-container input:focus {
+  border-color: #2a8e9e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #2a8e9e;
+  color: white;
+  font-size: 16px;
+}
+
+td {
+  font-size: 14px;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.completed {
+  color: green;
+  font-weight: bold;
+}
+
+.in-progress {
+  color: orange;
+  font-weight: bold;
+}
+
+.active-status {
+  color: green;
+  font-weight: bold;
+}
+
+.inactive-status {
+  color: red;
+  font-weight: bold;
+}
+.overdue-task {
+  color: red;
+  font-weight: bold;
+}
+.pending-task {
+  color: rgb(153, 153, 66);
+  font-weight: bold;
+}
+.completed-task {
+  color: green;
+  font-weight: bold;
+}
+
+.no-results {
+  text-align: center;
+  color: #777;
+}
+
+.edit-button {
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: #2a8e9e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.edit-button:hover {
+  background-color: #237a88;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.delete-button:hover .delete-icon {
+  opacity: 0.7;
+}
+

@@ -1,0 +1,84 @@
+.mytasks-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tasks-table thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.tasks-table th,
+.tasks-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tasks-table th {
+    font-weight: bold;
+}
+
+.tasks-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Adjust Attachment Column */
+.tasks-table td img {
+    width: 16px; /* Adjust the size of the pin icon */
+    height: 16px; /* Ensure the height matches the width */
+    cursor: pointer;
+    margin: 0 auto;
+    display: block; /* Center the icon in the cell */
+}
+
+/* Reduce the width of the Attachment column */
+.tasks-table th:nth-child(6),
+.tasks-table td:nth-child(6) {
+    width: 50px; /* Adjust the width of the column to fit the pin icon */
+    text-align: center; /* Center-align the content */
+}
+
+/* Edit button styles */
+.edit-button {
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.form-group input[type="file"] {
+    width: 300px;  /* Further increased width */
+    padding: 12px;  /* Increased padding for more space */
+    font-size: 16px;  /* Larger font size inside the input */
+    border: 1px solid #ccc;  /* Border for style */
+    border-radius: 8px;  /* Rounded corners */
+    cursor: pointer;  /* Cursor pointer to indicate interactivity */
+}
+

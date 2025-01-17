@@ -1,0 +1,80 @@
+@import "../global.scss";
+
+.contact-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #e9f3f4;
+    margin: 8%;
+}
+
+.contact-left {
+    flex: 1;
+    max-width: 400px;
+}
+
+.contact-left h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-left address {
+    font-style: normal;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.contact-right {
+    flex: 1;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #2a8e9e;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #1d1e20;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2a8e9e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d7680;
+}

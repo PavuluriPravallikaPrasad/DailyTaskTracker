@@ -1,0 +1,74 @@
+.employee-homepage {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #007bff;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .employee-homepage {
+        padding: 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+}
